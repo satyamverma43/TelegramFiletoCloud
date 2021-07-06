@@ -28,13 +28,14 @@ async def transferSH(file, client, bot, s_time):
     await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message_id,
-        text="Uploading to Transfer.sh"
+        text="Uploading to bayfiles.com 🚀"
     )
     try:
         async with aiohttp.ClientSession() as session:
             files = {'file': open(file, 'rb')}
-            response = await session.post('http://transfer.sh', data=files)
-            dl = await response.text()
+            response = await session.post('https://api.bayfiles.com/upload', data=files)
+            dlj = await response.json()
+            dl = dlj['data']['file']['url']['short']
             await client.edit_message_text(
                 chat_id=bot.from_user.id,
                 message_id=bot.message_id,
@@ -54,4 +55,4 @@ async def transferSH(file, client, bot, s_time):
             message_id=bot.message_id,
             text=f"{e}"
         )
-        LOGGER.info(f"{bot.from_user.id} - transferSH - file_size - {e}")
+        LOGGER.info(f"{bot.from_user.id} - bayfiles.com - file_size - {e}")
