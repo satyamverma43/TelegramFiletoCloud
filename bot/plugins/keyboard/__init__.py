@@ -14,8 +14,8 @@ def server_select():
     upload_selection = [
         [
             InlineKeyboardButton(
-                "transfer.sh",
-                callback_data="bayfiles"
+                "bayfiles",
+                callback_data="transfersh"
             ),
             InlineKeyboardButton(
                 "File.io",
