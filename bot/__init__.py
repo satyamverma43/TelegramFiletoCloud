@@ -41,6 +41,6 @@ except KeyError:
 
 class Msg:
     source = "\nsource: https://telegram.dog/thesatyamxyz"
-    start = "\n<b>This bot uploads telegram files to Gofiles.io,File.io.\nAdmin: @thesatyamxyz</b>"
-    error = "something is went wrong\n{error} \ncontact admin @thankappan369"
-    help = "\n<b>Send any file and the bot will upload it to Gofiles.io,File.io</b>"
+    start = "\n<b>This bot uploads telegram files to gofile.io,File.io.\nAdmin: @thesatyamxyz</b>"
+    error = "something is went wrong\n{error} \ncontact admin @thesatyamxyz"
+    help = "\n<b>Send any file and the bot will upload it to gofile.io,File.io</b>"
