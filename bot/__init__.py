@@ -43,4 +43,4 @@ class Msg:
     source = "\nsource: https://github.com/AbhijithNT/TelegramFiletoCloud"
     start = "\n<b>This bot uploads telegram files to MixDrop.co,File.io.\nAdmin: @thankappan369</b>"
     error = "something is went wrong\n{error} \ncontact admin @thankappan369"
-    help = "Usage: <b>Send any file and the bot will upload it to MixDrop.co,File.io</b>"
+    help = "\n<b>Send any file and the bot will upload it to MixDrop.co,File.io</b>"
