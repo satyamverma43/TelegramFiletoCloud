@@ -25,6 +25,6 @@ async def progress(current, total, up_msg, message, start_time):
 
 
 def progressBar(percent):
-    done_block = '█'
-    empty_block = '░'
+    done_block = "▣"
+    empty_block = "□"
     return f"{done_block * int(percent / 5)}{empty_block * int(20 - int(percent / 5))}"
