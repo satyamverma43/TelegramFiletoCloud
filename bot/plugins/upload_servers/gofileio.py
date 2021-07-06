@@ -26,7 +26,7 @@ async def gofileIO(file, client, bot, s_time):
     await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message_id,
-        text="Uploading to gofile.io"
+        text="Uploading to gofile.io 🚀"
     )
     try:
         async with aiohttp.ClientSession() as session:
