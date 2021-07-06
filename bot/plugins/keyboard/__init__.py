@@ -15,7 +15,7 @@ def server_select():
         [
             InlineKeyboardButton(
                 "transfer.sh",
-                callback_data="transfersh"
+                callback_data="bayfiles"
             ),
             InlineKeyboardButton(
                 "File.io",
@@ -47,7 +47,7 @@ def completedKeyboard(dl):
             [
             InlineKeyboardButton(
                 "🗂 SOURCE",
-                url="https://github.com/AbhijithNT/"
+                url="https://telegram.dog/thesatyamxyz"
             )
         ]])
 
