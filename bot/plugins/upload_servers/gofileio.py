@@ -33,7 +33,7 @@ async def gofileIO(file, client, bot, s_time):
             files = {
                 'file': open(file, 'rb')
             }
-            respose = await session.post('https://store9.gofile.io/uploadFile', data=files)
+            respose = await session.post('https://store1.gofile.io/uploadFile', data=files)
             dlj = await respose.json()
             dl = dlj['data']['downloadPage']
             await client.edit_message_text(
