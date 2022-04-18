@@ -29,7 +29,7 @@ def server_select():
             ),
             InlineKeyboardButton(
                 "anonymfiles.com",
-                callback_data="anonymfiles"
+                callback_data="anonfiles"
             )
         ]
     ]
